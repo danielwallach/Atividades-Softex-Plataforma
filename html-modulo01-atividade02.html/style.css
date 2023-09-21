@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*background-image: url(images/joao-pessoa-fundo.png);*/
+    background-size: 100%;
+    border: none;
+    font-family: "Pangolin";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 240, 229);
+}
+
+header {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    width: 100%;
+    
+    background-color: rgb(86, 161, 86);
+}
+
+.logo {
+    width: 150px;
+    margin-right: 50px;
+}
+
+h1 {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+}
+
+h2 {
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.fig1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.img1 {
+    width: 50%;
+}
+
+.text {
+    width: 50%;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(86, 161, 86);
+
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.p-footer {
+    align-self: center;
+}
